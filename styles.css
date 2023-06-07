@@ -1,0 +1,40 @@
+#burj {
+	position: relative;
+	width: 100%;
+	padding-bottom: 77%;
+	
+	margin: 0;
+	overflow: hidden;
+}
+#burj svg { 
+	display: inline-block;
+	position: absolute;
+	top: 0; left: 0;
+	
+}
+
+
+#speech-bubble {
+   width: 390px; 
+   height: 66px; 
+   background: #5ac4ed;
+   position: absolute;
+   top: 900px;
+   left:550px;
+   -moz-border-radius: 10px; 
+   -webkit-border-radius: 20px; 
+   border-radius: 10px;
+}
+#speech-bubble:before {
+   content:"CONTRACT: 0x7f4c5447af6A96d8eeAEE1d932338cFc57890dbD";
+   font-family: Monospace;
+   font-size: 15px;
+   position: absolute;
+   width: 0;
+   height: 0;
+   border-top: 20px solid transparent;
+   border-right: 26px solid #5ac4ed;
+   border-bottom: 13px solid transparent;
+   margin: 20px 20 0 -25px;
+}
+
